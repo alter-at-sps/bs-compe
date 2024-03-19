@@ -1,6 +1,6 @@
 f = open("input.txt", mode='r')
 
-current_max_set = [0]
+current_max_set = [0, 0, 0]
 current_sum = 0
 
 for line in f:

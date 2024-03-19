@@ -25,7 +25,7 @@ for i in range(len(in_str) - 13):
         break
 
 if unique_string == None:
-    print("failed to find a unique string for of 4 chars")
+    print("failed to find a unique string for of 14 chars")
     exit(-1)
 
 print(f"found unique string \"{unique_string}\" ending at index {string_loc + 14}")
