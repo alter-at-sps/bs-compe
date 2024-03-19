@@ -26,8 +26,6 @@ for line in f:
     score += win_index * 3
     score += tool_matrix[win_index][p1_index] + 1
 
-    print(score)
-
 f.close()
 
 print("total score:", score)
